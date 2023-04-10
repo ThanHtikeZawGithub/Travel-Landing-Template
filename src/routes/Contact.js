@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import ContactImg from "../assets/2.jpg"
+import ContactImg from "../assets/contact.jpg"
+import Footer from '../components/Footer'
 
 const Contact = () => {
     return (
@@ -11,6 +12,7 @@ const Contact = () => {
         src= {ContactImg}
         title = "Contact"
         />
+        <Footer/>
         </>    
     );
 }

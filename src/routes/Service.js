@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import ServiceImg from "../assets/1.jpg"
+import ServiceImg from "../assets/service.jpg"
+import Footer from "../components/Footer";
+import Trip from '../components/Trip'
 
 const Service = () => {
     return (
@@ -11,6 +13,8 @@ const Service = () => {
         src= {ServiceImg}
         title = "Service" 
         />
+        <Trip/>
+        <Footer/>
         </>        
     );
 }

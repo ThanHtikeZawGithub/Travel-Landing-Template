@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import AboutImg from "../assets/night.jpg"
+import AboutImg from "../assets/about.jpg"
+import Footer from "../components/Footer";
 
 const About = () => {
     return (
@@ -11,6 +12,7 @@ const About = () => {
         src= {AboutImg}
         title = "About"
         />
+        <Footer/>
         </>   
     );
 }

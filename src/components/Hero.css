@@ -42,6 +42,8 @@ img {
     font-size: 1.5rem;
     color: #fff;
     padding: 0.5rem 0 2rem 0;
+    font-weight: bold;
+    
 }
 
 .hero-text .show {
@@ -59,11 +61,12 @@ img {
 @media screen and (max-width: 555px) {
     .hero-text h1 {
         padding: 10px 20px;
-        font-size: 1rem;
+        font-size: 3rem;
     }
     .hero-text p {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         padding: 0 0 2rem 0;
+        font-weight: 700;
     }
     .hero-text .show {
         padding: 0.6rem 1.1rem;

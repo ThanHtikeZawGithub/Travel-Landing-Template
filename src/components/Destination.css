@@ -12,7 +12,20 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+    padding-left: 1rem;
+    padding: 4rem;
 }
+
+.first-des-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    padding-left: 1rem;
+    padding: 4rem;
+}
+
 
 .des-text {
     width: 45%;
@@ -22,6 +35,10 @@
 
 .des-text h2 {
     padding-bottom: 1rem;
+}
+
+.destination p {
+    font-weight: 700;
 }
 
 .image {
@@ -52,11 +69,26 @@
         margin: 4rem 2rem;
     }
 
+    .destination h1 {
+        font-size: 2rem;
+    
+    }
+    .destination p {
+        font-weight: 500;
+    }
+
     .first-des {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 2.5rem;
     }
+
+    .first-des-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
     .des-text{
         width: 100%;
     }
