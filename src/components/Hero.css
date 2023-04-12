@@ -65,7 +65,7 @@ img {
     }
     .hero-text p {
         font-size: 1.3rem;
-        padding: 0 0 2rem 0;
+        padding: 0 1rem 2rem 1rem;
         font-weight: 700;
     }
     .hero-text .show {

@@ -13,7 +13,7 @@ const Home = () => {
         <Hero
         cName="hero"
         src= {HeroImage}
-        title = "Your Journery Your Story"
+        title = "Your Journey Your Story"
         text = 'ခရီးသွားရင်း အမှတ်တရများစွာ ဖန်တီးလိုက်ပါ'
         buttonText = "Travel Plan"
         url="/"
