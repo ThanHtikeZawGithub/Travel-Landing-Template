@@ -13,7 +13,7 @@
     justify-content: space-between;
     margin-top: 4.5rem;
     padding-left: 1rem;
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .first-des-reverse {
@@ -23,7 +23,7 @@
     justify-content: space-between;
     margin-top: 4.5rem;
     padding-left: 1rem;
-    padding: 4rem;
+    padding: 3rem;
 }
 
 
@@ -66,11 +66,20 @@
 
 @media screen and (max-width: 850px) {
     .destination {
-        margin: 4rem 2rem;
+        margin: 1rem 1rem;
+        padding: 1rem 1rem;
+    }
+
+    .first-des {
+        padding: 1rem;
+    }
+
+    .first-des-reverse {
+        padding: 1rem;
     }
 
     .destination h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     
     }
     .destination p {
